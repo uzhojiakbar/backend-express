@@ -5,3 +5,8 @@
   external_node_modules = [
     "express"
   ]
+
+[[redirects]]
+from = "/*"
+to = '/index.html'
+status = 200
