@@ -1,2 +1,7 @@
-[[functions]]
-    path = "users.js"
+[build]
+  functions = "functions"
+
+[functions]
+  external_node_modules = [
+    "express"
+  ]
